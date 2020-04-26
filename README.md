@@ -12,14 +12,14 @@ An free open source, discord moderation bot that helps you restrict certain thin
 - This is 1.0.0 early version soon adding restricting and allowing links in some channels.
 
 # Note:
-To everyone who plan to sell our project by stating that they coded it or that they sell edited version. Project is licenced under the MIT licence
+To everyone who plan to sell our project by stating that they coded it or that they sell edited version. Project is licensed under the MIT license
 
 "The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software."
 
-This means that if you plan to sell our project to make quick buck please keep the copyright notice and copy of oreginal licence. In case of breaking licencing tearms we may take legal charges against you.
+This means that if you plan to sell our project to make quick buck please keep the copyright notice and copy of original license. In case of breaking licensing terms we may take legal charges against you.
 
-Project is made open source and free for all. We cant prohibit reselling of our project but if you do please follow the licencing tearms.
+Project is made open source and free for all. We cant prohibit reselling of our project but if you do please follow the licensing terms.
 
 # DISCORD Support Server
 
