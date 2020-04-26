@@ -9,6 +9,7 @@ An free open source, discord moderation bot that helps you restrict certain thin
 
 
 - This project will receive constant updates and new features added !
+- This is 1.0.0 early version soon adding restricting and allowing links in some channels.
 
 # Note:
 To everyone who plan to sell our project by stating that they coded it or that they sell edited version. Project is licenced under the MIT licence
