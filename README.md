@@ -65,5 +65,5 @@ https://discord.gg/XxvjjPs
 
 # Want Improvements ?
 
-If you have some requests feel free to contact me : https://steamcommunity.com/id/MajokingGames/ i can code custom features to the Bot.
+If you have some private requests feel free to contact main dev : https://steamcommunity.com/id/MajokingGames/
 Or mail at refloowcontact@gmail.com
