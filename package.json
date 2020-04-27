@@ -20,6 +20,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://https://github.com/Refloow/Discord-Channel-Moderator.git"
+  },
   "author": "Refloow - MajokingGames",
   "license": "MIT"
 }
