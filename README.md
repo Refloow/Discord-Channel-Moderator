@@ -1,4 +1,10 @@
-# Discord-Channel-Moderator
+<p align="center">
+<img width="600" height="100" src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg">
+</p>
+
+# Discord Channel Moderator
+
+# About
 An free open source, discord moderation bot that helps you restrict certain things such as commands, links in channels where they were not allowed.
 
 ![GitHub package version](https://img.shields.io/github/package-json/v/Refloow/Discord-Channel-Moderator.svg)
