@@ -11,6 +11,7 @@ An free open source, discord moderation bot that helps you restrict certain thin
 [![GitHub forks](https://img.shields.io/github/forks/Refloow/Discord-Channel-Moderator.svg?style=plastic)](https://github.com/Refloow/Discord-Channel-Moderator/network)
 [![GitHub stars](https://img.shields.io/github/stars/Refloow/Discord-Channel-Moderator.svg?style=plastic)](https://github.com/Refloow/Discord-Channel-Moderator/stargazers)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=plastic)](https://raw.githubusercontent.com/Refloow/Discord-Channel-Moderator/master/LICENSE)
+[![Support](https://img.shields.io/discord/690327113039085600)](https://discord.gg/XxvjjPs)
 [![Language](https://img.shields.io/badge/language-JavaScript-yellow.svg)](https://en.wikipedia.org/wiki/JavaScript)
 [![Steam](https://img.shields.io/badge/steam-donate-yellow.svg)](https://steamcommunity.com/tradeoffer/new/?partner=392773011&token=CncehZti)
 
