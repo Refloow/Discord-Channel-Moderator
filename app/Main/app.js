@@ -1,7 +1,7 @@
 // Discord-Channel-Moderator built by Refloow (-MajokingGames)
 
 /* 
-  Here is contact info: refloowcontact@gmail.com
+  Here is contact info: refloowlibrarycontact@gmail.com
   or main dev steam: steam: https://steamcommunity.com/id/MajokingGames/
 */
 
