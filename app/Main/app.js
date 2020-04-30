@@ -5,7 +5,7 @@
   or main dev steam: steam: https://steamcommunity.com/id/MajokingGames/
 */
 
-// Checking if all modules are installed correctly
+// Checking if all modules are installed correctly 
 
 try {
   Discord = require ('discord.js');
