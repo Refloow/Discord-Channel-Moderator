@@ -74,4 +74,4 @@ https://discord.gg/XxvjjPs
 # Want Improvements ?
 
 If you have some private requests feel free to contact main dev : https://steamcommunity.com/id/MajokingGames/
-Or mail at refloowcontact@gmail.com
+Or mail at refloowlibrarycontact@gmail.com
