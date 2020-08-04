@@ -15,11 +15,6 @@ try {
   process.exit(1);
 }
 
-// Starting main app
-
-require('./app/Main/app.js');
-const method = require('./app/Main/methods.js');
-
 // Basic infomations display on startup
 
 console.log('8888888b.          .d888888                              '.cyan);
@@ -35,6 +30,11 @@ console.log('Verision early 1.0.0'.cyan);
 console.log('Preparing code for launch'.cyan);
 console.log(''.red);
 console.log('Loading config file...\n\n'.green );
+
+// Starting main app
+
+require('./app/Main/app.js');
+const method = require('./app/Main/methods.js');
 
 
 // Checking for correct version (updates) for bot on github
