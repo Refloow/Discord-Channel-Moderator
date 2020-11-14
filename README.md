@@ -69,15 +69,6 @@ https://discord.gg/XxvjjPs
  
  Check images in (Discord-Channel-Moderator/Settings/Server Setup Images) for visual guide
 
-
-
-# Support the project
-- If you like the project and the fact that is free you can support us by giving an donation.
-- We are accepting donations on:
-
-1. Steam: https://steamcommunity.com/tradeoffer/new/?partner=392773011&token=CncehZti
-
-
 # Want Improvements ?
 
 If you have some private requests feel free to contact main dev : https://steamcommunity.com/id/MajokingGames/
