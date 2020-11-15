@@ -15,6 +15,8 @@ An free open source, discord moderation bot that helps you restrict certain thin
 [![Language](https://img.shields.io/badge/language-JavaScript-yellow.svg)](https://en.wikipedia.org/wiki/JavaScript)
 [![Steam](https://img.shields.io/badge/steam-donate-yellow.svg)](https://steamcommunity.com/tradeoffer/new/?partner=392773011&token=CncehZti)
 
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P02ONAC)
+
 
 - This project will receive constant updates and new features added !
 - This is 1.0.0 early version soon adding restricting and allowing links in some channels.
