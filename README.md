@@ -15,7 +15,11 @@ An free open source, discord moderation bot that helps you restrict certain thin
 [![Language](https://img.shields.io/badge/language-JavaScript-yellow.svg)](https://en.wikipedia.org/wiki/JavaScript)
 [![Steam](https://img.shields.io/badge/steam-donate-yellow.svg)](https://steamcommunity.com/tradeoffer/new/?partner=392773011&token=CncehZti)
 
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P02ONAC)
+<p align= "center">
+  <a href="https://ko-fi.com/P5P02ONAC">
+  <img src="https://www.ko-fi.com/img/githubbutton_sm.svg">
+  </a>
+</p>
 
 
 - This project will receive constant updates and new features added !
