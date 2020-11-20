@@ -7,13 +7,34 @@
 # About
 An free open source, discord moderation bot that helps you restrict certain things such as commands, links in channels where they were not allowed.
 
-![GitHub package version](https://img.shields.io/github/package-json/v/Refloow/Discord-Channel-Moderator.svg)
-[![GitHub forks](https://img.shields.io/github/forks/Refloow/Discord-Channel-Moderator.svg?style=plastic)](https://github.com/Refloow/Discord-Channel-Moderator/network)
-[![GitHub stars](https://img.shields.io/github/stars/Refloow/Discord-Channel-Moderator.svg?style=plastic)](https://github.com/Refloow/Discord-Channel-Moderator/stargazers)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=plastic)](https://raw.githubusercontent.com/Refloow/Discord-Channel-Moderator/master/LICENSE)
-[![Support](https://img.shields.io/discord/690327113039085600)](https://discord.gg/XxvjjPs)
-[![Language](https://img.shields.io/badge/language-JavaScript-yellow.svg)](https://en.wikipedia.org/wiki/JavaScript)
-[![Steam](https://img.shields.io/badge/steam-donate-yellow.svg)](https://steamcommunity.com/tradeoffer/new/?partner=392773011&token=CncehZti)
+
+<p align= "center">
+  <img src="https://img.shields.io/github/package-json/v/Refloow/Discord-Channel-Moderator.svg" alt="GitHub package version">
+  </a>
+    <a href="https://github.com/Refloow/Discord-Channel-Moderator/network">
+  <img src="https://img.shields.io/github/forks/Refloow/Discord-Channel-Moderator.svg?style=plastic" alt="GitHub forks">
+  </a>
+    <a href="https://github.com/Refloow/Discord-Channel-Moderator/stargazers">
+  <img src="https://img.shields.io/github/stars/Refloow/Discord-Channel-Moderator.svg?style=plastic" alt="GitHub stars">
+  </a>
+    <a href="https://raw.githubusercontent.com/Refloow/Steam-Card-Bot-PRO/master/LICENSE">
+  <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=plastic" alt="GitHub license">
+  </a>
+    <a href="https://discord.gg/XxvjjPs">
+  <img src="https://img.shields.io/discord/690327113039085600" alt="Support">
+  </a>
+    <a href="https://en.wikipedia.org/wiki/Node.js">
+  <img src="https://img.shields.io/badge/Uses-Node.js-green" alt="Language">
+  </a>
+    <a href="https://en.wikipedia.org/wiki/JavaScript">
+  <img src="https://img.shields.io/badge/language-JavaScript-yellow.svg" alt="Language">
+  </a>
+    <a href="https://steamcommunity.com/tradeoffer/new/?partner=392773011&token=CncehZti">
+  <img src="https://img.shields.io/badge/steam-donate-yellow.svg" alt="Steam">
+  </a>
+</p>
+
+
 
 <p align= "center">
   <a href="https://ko-fi.com/P5P02ONAC">
