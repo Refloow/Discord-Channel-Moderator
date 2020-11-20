@@ -17,7 +17,7 @@ An free open source, discord moderation bot that helps you restrict certain thin
     <a href="https://github.com/Refloow/Discord-Channel-Moderator/stargazers">
   <img src="https://img.shields.io/github/stars/Refloow/Discord-Channel-Moderator.svg?style=plastic" alt="GitHub stars">
   </a>
-    <a href="https://raw.githubusercontent.com/Refloow/Steam-Card-Bot-PRO/master/LICENSE">
+    <a href="https://raw.githubusercontent.com/Refloow/Discord-Channel-Moderator/master/LICENSE">
   <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=plastic" alt="GitHub license">
   </a>
     <a href="https://discord.gg/XxvjjPs">
