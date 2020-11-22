@@ -2,10 +2,15 @@
 <img width="600" height="100" src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg">
 </p>
 
-# Discord Channel Moderator
+<h1 align= "center"><b>
+  About
+  </b>
+</h1>
 
-# About
+<p align= "center">
 An free open source, discord moderation bot that helps you restrict certain things such as commands, links in channels where they were not allowed.
+  <hr>
+</p>
 
 
 <p align= "center">
