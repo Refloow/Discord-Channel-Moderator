@@ -1,3 +1,6 @@
+### `Read this page before asking any questions`
+> **[Important Guides]()**<br>
+
 <p align="center">
 <img width="600" height="100" src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg">
 </p>
