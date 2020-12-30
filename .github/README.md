@@ -76,14 +76,26 @@ Project is made open source and **free for all.**<br>
 
 # DISCORD Support Server
 
-https://discord.gg/XxvjjPs
+**https://discord.gg/XxvjjPs**
+
+<hr>
 
 # Support the project
-- If you like the project and the fact that is free you can support us by giving an donation.
+- **If you like the project and the fact that is free you can support us by giving an donation.**
 - We are accepting donations on:
 
 1. Ko-fi: https://ko-fi.com/refloow
 2. Steam: https://steamcommunity.com/tradeoffer/new/?partner=392773011&token=CncehZti
+
+<hr>
+
+# Want Improvements ?
+
+If you have some private requests feel free to contact main dev : https://steamcommunity.com/id/MajokingGames/<br>
+Or mail at refloowlibrarycontact@gmail.com <br>
+**Note that we wont add any platform breaking TOS Modifications to any of our existing or requested projects**
+
+<hr>
 
 # Current Features
 
@@ -113,8 +125,3 @@ https://discord.gg/XxvjjPs
  - In the channels where you want commands to take place set bots TEXT PREMISSIONS - Read Messages & Manage Messages to false
  
  Check images in (Discord-Channel-Moderator/Settings/Server Setup Images) for visual guide
-
-# Want Improvements ?
-
-If you have some private requests feel free to contact main dev : https://steamcommunity.com/id/MajokingGames/
-Or mail at refloowlibrarycontact@gmail.com
