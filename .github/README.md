@@ -84,7 +84,7 @@ Project is made open source and **free for all.**<br>
 > **[Want to contribute? Read how](https://github.com/OSL-Works/Discord-Channel-Moderator/blob/master/.github/CONTRIBUTING.md)**<br>
 ### `Features`
 > **[See list of features]()**<br>
-> **[See version changelogs]()**<br>
+> **[See version changelogs](https://github.com/OSL-Works/Discord-Channel-Moderator/blob/master/.github/changelog.md)**<br>
 ### `FAQ`
 > **[Frequently Asked Questions]()**<br>
 
