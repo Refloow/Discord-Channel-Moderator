@@ -1,5 +1,5 @@
 ### `Read this page before asking any questions`
-> **[Important Guides]()**<br>
+> **[Important Guides](https://github.com/OSL-Works/Discord-Channel-Moderator#important-links)**<br>
 
 <p align="center">
 <img width="600" height="100" src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg">
