@@ -1,4 +1,18 @@
 module.exports = {
+    
+    
+/*
+
+Want active support and new updates with new features all for free?
+
+Leave an star on github repo its free ( we push updates based on the engagement )
+Repo link: https://github.com/OSL-Works/Discord-Channel-Moderator 
+
+  Discord Support Server: https://discord.gg/D8WCtDD     (Open an ticket)
+
+*/
+
+
 
     // ---------DISCORD ACCOUNT SETUP-----------//
 
