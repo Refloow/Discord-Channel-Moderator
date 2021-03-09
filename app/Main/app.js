@@ -290,3 +290,10 @@ if(method.DeletingCommands()) {
 // Loging in
 
 refloow.login(config.Discord_Login)
+
+
+// Copyright notice:
+
+/* Original work: Copyright (c) 2020-2021 Refloow All rights reserved.
+  Code origin: https://github.com/OSL-Works/Discord-Channel-Moderator */
+
