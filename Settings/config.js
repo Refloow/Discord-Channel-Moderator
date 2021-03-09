@@ -5,7 +5,7 @@ module.exports = {
 /* Original work: Copyright (c) 2020-2021 Refloow All rights reserved.
   Code origin: https://github.com/OSL-Works/Discord-Channel-Moderator */
 
-    /*
+/*
 
 Want active support and new updates with new features all for free?
 
