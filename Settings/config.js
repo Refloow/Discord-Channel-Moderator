@@ -1,7 +1,11 @@
 module.exports = {
     
-    
-/*
+    // Copyright notice:
+
+/* Original work: Copyright (c) 2020-2021 Refloow All rights reserved.
+  Code origin: https://github.com/OSL-Works/Discord-Channel-Moderator */
+
+    /*
 
 Want active support and new updates with new features all for free?
 
@@ -152,3 +156,10 @@ DeletingCommands_Enable: true,      // [true/false] Enable or disable | Deleting
 //    MessagingUserAfterDeleteCPrefix6: false,  // [true/false] Enable or disable   |
 //       custom6: '', // Set custom prefix
 //       MessageAfterDeleteCP6: '.', // Set custom message
+
+
+// Copyright notice:
+
+/* Original work: Copyright (c) 2020-2021 Refloow All rights reserved.
+  Code origin: https://github.com/OSL-Works/Discord-Channel-Moderator */
+
