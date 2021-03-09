@@ -1,9 +1,9 @@
 module.exports = {
     
-    // Copyright notice:
+   // Copyright notice:
 
 /* Original work: Copyright (c) 2020-2021 Refloow All rights reserved.
-  Code origin: https://github.com/OSL-Works/Discord-Channel-Moderator */
+  Code origin (Free GitHub publish): https://github.com/OSL-Works/Discord-Channel-Moderator*/
 
 /*
 
