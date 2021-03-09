@@ -74,3 +74,9 @@ const logger = module.exports = winston.createLogger({
   ],
   level: 'info'
 });
+
+// Copyright notice:
+
+/* Original work: Copyright (c) 2020-2021 Refloow All rights reserved.
+  Code origin: https://github.com/OSL-Works/Discord-Channel-Moderator */
+
