@@ -78,4 +78,7 @@ if(method.DisableUpdateNotification()) {
 	method.check()
 }
 
-// Original work: Copyright (c) 2020-2021 Refloow All rights reserved.
+// Copyright notice:
+
+/* Original work: Copyright (c) 2020-2021 Refloow All rights reserved.
+  Code origin: https://github.com/OSL-Works/Discord-Channel-Moderator */
