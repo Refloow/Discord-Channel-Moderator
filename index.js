@@ -69,7 +69,7 @@ console.log('Loading config file...\n\n'.green );
 
 // Starting main app
 
-require('./app/Main/app.js');
+require('./app/app.js');
 const method = require('./app/Main/methods.js');
 
 
