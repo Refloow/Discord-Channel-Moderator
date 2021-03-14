@@ -14,8 +14,6 @@
   Main developer steam: https://steamcommunity.com/id/MajokingGames/ 
   Mail: refloowlibrarycontact@gmail.com
 
-* Donations:
-  Donate: https://ko-fi.com/refloow
  --------------------------------------------------------------------------------------------*/
 
  /* 
@@ -44,7 +42,10 @@ the original license and copyright notice is licence agreement breach and its co
 // Checking if all modules are installed correctly 
 
 try {
+  // Checking if discord module is installed correctly
   Discord = require ('discord.js');
+  // Checking if console-master module is installed correctly
+  Console = require ('console-master');
 } catch (ex) {
   console.log('\n\n\n | [Modules] |: Missing dependecies Run install.bat file or use npm install. \n\n\n');
   console.log(ex);
@@ -54,7 +55,6 @@ try {
 // Setting other things for the project
 
 const config = require('../../Settings/config.js');
-const logcol = require('../Colors - Console/logcol.js');
 const method = require('./methods.js');
 const refloow = new Discord.Client();
 var servers = {};
@@ -63,12 +63,12 @@ var servers = {};
 // Client on 'ready'
 
 refloow.on('ready', () => {
-    logcol.correct("| [Discord] | Succesfully connected as " + refloow.user.tag)
+    Console.true("| [Discord] | Succesfully connected as " + refloow.user.tag)
 
     refloow.user.setActivity(config.DisplayMessage, {type: config.Type})
 
     refloow.guilds.forEach((guild) =>{
-        logcol.correct("| [Discord] | Connected to server: "+guild.name)
+        Console.true("| [Discord] | Connected to server: "+guild.name)
         guild.channels.forEach((channel) => {
         })
     })
