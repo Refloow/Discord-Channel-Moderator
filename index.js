@@ -70,7 +70,7 @@ console.log('Loading config file...\n\n'.green );
 // Starting main app
 
 require('./app/app.js');
-const method = require('./app/Main/methods.js');
+const method = require('./app/methods.js');
 
 
 // Checking for correct version (updates) for bot on github
