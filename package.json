@@ -3,19 +3,20 @@
   "version": "1.0.0",
   "description": "Discord Moderation Bot that helps you restrict certain things such as commands, links.. in channels where they were not allowed. Script is Node.js based using discord.js",
   "main": "index.js",
-    "bugs": {
-        "url": "https://github.com/Refloow/Discord-Channel-Moderator/issues"
-    },
+  "bugs": {
+    "url": "https://github.com/Refloow/Discord-Channel-Moderator/issues"
+  },
   "homepage": "https://github.com/Refloow/Discord-Channel-Moderator/blob/master/README.md",
   "dependencies": {
     "colors": "^1.1.2",
+    "console-master": "latest",
     "console-stamp": "^0.2.7",
     "discord.js": "^11.4.2",
+    "moment": "^2.22.2",
     "opusscript": "0.0.7",
     "prompt": "^1.0.0",
-    "winston": "^3.1.0",
-    "moment": "^2.22.2",
-    "request": "^2.85.0"
+    "request": "^2.85.0",
+    "winston": "^3.1.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
