@@ -51,6 +51,7 @@ try {
   process.exit(1);
 }
 
+// Importing required files
 const method = require('./app/methods.js');
 const package = require('./package.json');
 const v = package.version; 
@@ -66,7 +67,7 @@ console.log('888 T88b  88888888888   888888  888888  888888  888  888'.cyan);
 console.log('888  T88b Y8b.    888   888Y88..88PY88..88PY88b 888 d88P '.cyan);
 console.log('888   T88b "Y8888 888   888 "Y88P"  "Y88P"  "Y8888888P" \n\n\n'.cyan);                              
 console.log('/* Original work: Copyright (c) 2020-2021 Refloow All rights reserved. \n Code origin (Free GitHub publish): https://github.com/OSL-Works/Discord-Channel-Moderator*/\n'.cyan);
-console.log(`Verision ${v}`.cyan);
+console.log(`Verision v${v}`.cyan);
 console.log('Preparing code for launch'.cyan);
 console.log(''.red);
 console.log('Loading config file...\n\n'.green );
