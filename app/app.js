@@ -1,7 +1,7 @@
 
 // Copyright notice:
 
-/*--------------------------------------------------------------------------------------------- 
+/*---------------------------------------------------------------------------------------------
 * Original work: Copyright (c) 2020-2021 Refloow All rights reserved.
 
 * Code origin: https://github.com/OSL-Works/Discord-Channel-Moderator
@@ -11,16 +11,16 @@
 
 * Contact information:
   Discord Support Server: https://discord.gg/D8WCtDD
-  Main developer steam: https://steamcommunity.com/id/MajokingGames/ 
+  Main developer steam: https://steamcommunity.com/id/MajokingGames/
   Mail: refloowlibrarycontact@gmail.com
-  
+
   * Donations:
   Crypto: https://refloow.com/cdonate
   Steam: https://steamcommunity.com/tradeoffer/new/?partner=392773011&token=CncehZti
 
  --------------------------------------------------------------------------------------------*/
 
- /* 
+ /*
 
 // legal advice: PERMISSIONS AND RIGHTS
 
@@ -43,7 +43,7 @@ the original license and copyright notice is licence agreement breach and its co
 
 */
 
-// Checking if all modules are installed correctly 
+// Checking if all modules are installed correctly
 
 try {
   // Checking if discord module is installed correctly
@@ -100,7 +100,7 @@ if(method.DeletingCommands()) {
         }
     }
 
-    if(method.DisablePrefix2()) {  
+    if(method.DisablePrefix2()) {
       if (message.content.startsWith("+")) {
         if(method.DeletingCommands()) {
           message.delete()
@@ -139,7 +139,7 @@ if(method.DeletingCommands()) {
         }
     }
 
-      
+
     if(method.DisablePrefix5()) {
       if (message.content.startsWith("/")) {
         if(method.DeletingCommands()) {
@@ -205,10 +205,10 @@ if(method.DeletingCommands()) {
         }
       }
 
-      
+
     // CUSTOM PREFIX ACTIONS - FOR FUTURE UPDATE
 
-//    if(method.DisableCustomPrefix1()) { 
+//    if(method.DisableCustomPrefix1()) {
 //      if (message.content.startsWith(config.custom1)) {
 //        if(method.DeletingCommands()) {
 //              message.delete()

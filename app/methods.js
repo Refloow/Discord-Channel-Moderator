@@ -1,7 +1,7 @@
 
 // Copyright notice:
 
-/*--------------------------------------------------------------------------------------------- 
+/*---------------------------------------------------------------------------------------------
 * Original work: Copyright (c) 2020-2021 Refloow All rights reserved.
 
 * Code origin: https://github.com/OSL-Works/Discord-Channel-Moderator
@@ -11,7 +11,7 @@
 
 * Contact information:
   Discord Support Server: https://discord.gg/D8WCtDD
-  Main developer steam: https://steamcommunity.com/id/MajokingGames/ 
+  Main developer steam: https://steamcommunity.com/id/MajokingGames/
   Mail: refloowlibrarycontact@gmail.com
 
 * Donations:
@@ -19,7 +19,7 @@
   Steam: https://steamcommunity.com/tradeoffer/new/?partner=392773011&token=CncehZti
  --------------------------------------------------------------------------------------------*/
 
- /* 
+ /*
 
 // legal advice: PERMISSIONS AND RIGHTS
 
@@ -58,7 +58,7 @@ const package = require('../package.json');
 const config = require('../Settings/config.js');
 
 t = module.exports = {
-    
+
     check: function() {
         const request = require('request');
         var options = {
@@ -70,7 +70,7 @@ t = module.exports = {
             const v = package.version;
             if(page.version != v)
                 console.log(`| [GitHub] | VERSION |:  ${'New update available for '+package.name+ ' v'+page.version.green+'! You\'re currently only running version '+v.yellow+''}\n${`| [GitHub] | VERSION |: Go to https://github.com/Refloow/Steam-Card-Bot-PRO to update now!`}\n\n`)
-            else 
+            else
                 console.log(`| [GitHub] | VERSION |: You're running the latest version of Discord-Channel-Moderator (v${v.green})\n\n`)
         }
         request(options, look)

@@ -69,7 +69,7 @@ This means that if you plan to sell our project to make quick buck please keep t
 **In case of breaking licensing terms we may take legal charges against you.**
 
 Project is made open source and **free for all.**<br>
-**We cant prohibit reselling of our project but if you do please follow the licensing terms.**<br> 
+**We cant prohibit reselling of our project but if you do please follow the licensing terms.**<br>
 
 <br>
 <hr>
@@ -129,5 +129,5 @@ Or mail at refloowlibrarycontact@gmail.com <br>
  - To prevent other bots responding on commands in wrong channel add them to roles/members in channel where you want to restrict them and disable Text Premission - Send Messages & Read Messages
  - Add your bot that you host script on and set his TEXT PREMISSIONS - Read Messages & Manage Messages to true in channel you want bot to operate (Number of channels is not limited)
  - In the channels where you want commands to take place set bots TEXT PREMISSIONS - Read Messages & Manage Messages to false
- 
+
  Check images in (Discord-Channel-Moderator/Settings/Server Setup Images) for visual guide
