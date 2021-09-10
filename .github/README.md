@@ -11,7 +11,7 @@
 </h1>
 
 <p align= "center">
-An free open source, discord moderation bot that helps you restrict certain things such as commands, links in channels where they were not allowed.
+An free open source, discord moderation bot that helps you restrict certain things such as commands, links or filter words in channels where they were not allowed.
   <hr>
 </p>
 
