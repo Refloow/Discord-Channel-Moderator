@@ -2,164 +2,99 @@ module.exports = {
     
    // Copyright notice:
 
-/* Original work: Copyright (c) 2020-2021 Refloow All rights reserved.
+/* 
+  Original work: Copyright (c) 2020-2021 Refloow All rights reserved.
   Code origin (Free GitHub publish): https://github.com/OSL-Works/Discord-Channel-Moderator*/
-
 /*
 
 Want active support and new updates with new features all for free?
-
 Leave an star on github repo its free ( we push updates based on the engagement )
 Repo link: https://github.com/OSL-Works/Discord-Channel-Moderator 
 
   Discord Support Server: https://discord.gg/D8WCtDD     (Open an ticket)
-  
-  * Donations:
-  Crypto: https://refloow.com/cdonate
-  Steam: https://steamcommunity.com/tradeoffer/new/?partner=908829436&token=wCNxGnyr
 
 */
 
 
-
-    // ---------DISCORD ACCOUNT SETUP-----------//
-
-        Discord_Login: "", // Discord Bot Login code.
-
-        DisplayMessage: "With spammy users",   // Custom status message.
-        Type: "Playing",                       // Type of status message
+////////////////////////////////////////////////////
+//------------------------------------------------//
+//                Account setup                   //
+//------------------------------------------------//
+////////////////////////////////////////////////////
 
 
-    // ----------------------------------------//
+      Discord_Login: "", // Discord Bot Login code.
+      DisplayMessage: "With spammy users",   // Custom status message.
+      Type: "Playing",                       // Type of status message
 
-    // Dsabling update notifications
 
-UpdateNotification: true,           // [true/false] Enable or disable | Displaying new version update notification in dev console logs
+////////////////////////////////////////////////////
+//------------------------------------------------//
+//     Moderating commands in regular chat        //
+//------------------------------------------------//
+////////////////////////////////////////////////////
 
-    // Disabling whole feature
+DeletingCommands_Enable: true,      // [true/false] Enable or disable |  Moderating commands in regular chat
 
-DeletingCommands_Enable: true,      // [true/false] Enable or disable | Deleting commands (messages if they start with prefix) - DISABLING ALL MESSAGES AT ONES
-  MessagingUserAfterDelete: true,   // [true/false] Enable or disable | Disablig this bot wont sent any messages to users after deleting command message.
+blacklisted: ["!","+",".","$","/","-",">"], // List of prefixes to delete from regular chat (make sure to hide bot from commands channels)
+MessagingUserAfterDelete: true,   // [true/false] Enable or disable | Sending dm's to people whos commands got deleted
+MessageAfterDelete: 'Your command has been deleted. You know that there is commands channel for commands. No need for braking rules. :/',
 
-    /* [ ! ] */              DeleteIfPrefix1: true,     // [true/false] Enable or disable | Commands deleted if they use this prefix.
-                MessagingUserAfterDeletePrefix1: true,  // [true/false] Enable or disable | Disable messaging user if action is taken for this prefix.
-                  MessageAfterDeleteP1: 'Your command has been deleted. You know that there is commands channel for command with ! prefix. No need for braking rules. :/',
 
-    /* [ + ] */              DeleteIfPrefix2: true,     // [true/false] Enable or disable | Commands deleted if they use this prefix.
-                MessagingUserAfterDeletePrefix2: true,  // [true/false] Enable or disable | Disable messaging user if action is taken for this prefix.
-                  MessageAfterDeleteP2: 'Your command has been deleted. You know that there is commands channel for command with + prefix. No need for braking rules. :/',
+////////////////////////////////////////////////////
+//------------------------------------------------//
+//              Moderating links                  //
+//------------------------------------------------//
+////////////////////////////////////////////////////
 
-    /* [ . ] */              DeleteIfPrefix3: true,     // [true/false] Enable or disable | Commands deleted if they use this prefix.
-                MessagingUserAfterDeletePrefix3: true,  // [true/false] Enable or disable | Disable messaging user if action is taken for this prefix.
-                  MessageAfterDeleteP3: 'Your command has been deleted. You know that there is commands channel for command with . prefix. No need for braking rules. :/',
+// Disables this section
+ModeratingLinks_Enable: true,          // [true/false] Enable or disable | Moderating links within a server
+MessagingUserAfterDeletingLink: true,  // [true/false] Enable or disable | DM'S after deleting an link MessageOnDelete_x setting
 
-    /* [ $ ] */              DeleteIfPrefix4: true,     // [true/false] Enable or disable | Commands deleted if they use this prefix.
-                MessagingUserAfterDeletePrefix4: true,  // [true/false] Enable or disable | Disable messaging user if action is taken for this prefix.
-                  MessageAfterDeleteP4: 'Your command has been deleted. You know that there is commands channel for command with $ prefix. No need for braking rules. :/',
+Allowed_Channel_1: "844950029775929346", // In this configured channel
+Allowed_URL_in_Channel_1: "youtube.com", // This link will be allowed, any other links will be deleted.
+MessageOnDelete_1: "@here Sorry, this channel only allows youtube.com URLS", // Message sent in dms after deleting an message
 
-    /* [ / ] */              DeleteIfPrefix5: true,     // [true/false] Enable or disable | Commands deleted if they use this prefix.
-                MessagingUserAfterDeletePrefix5: true,  // [true/false] Enable or disable | Disable messaging user if action is taken for this prefix.
-                  MessageAfterDeleteP5: 'Your command has been deleted. You know that there is commands channel for command with / prefix. No need for braking rules. :/',
+Allowed_Channel_2: "885943358659395595", // In this configured channel
+Allowed_URL_in_Channel_2: "twitter.com", // This link will be allowed, any other links will be deleted.
+MessageOnDelete_2: "@here Sorry, this channel only allows twitter.com URLS", // Message sent in dms after deleting an message
 
-    /* [ - ] */              DeleteIfPrefix6: true,     // [true/false] Enable or disable | Commands deleted if they use this prefix.
-                MessagingUserAfterDeletePrefix6: true,  // [true/false] Enable or disable | Disable messaging user if action is taken for this prefix.
-                  MessageAfterDeleteP6: 'Your command has been deleted. You know that there is commands channel for command with - prefix. No need for braking rules. :/',
+Allowed_Channel_3: "885943407342678047", // In this configured channel
+Allowed_URL_in_Channel_3: "refloow.com", // This link will be allowed, any other links will be deleted.
+MessageOnDelete_3: "@here Sorry, this channel only allows refloow.com URLS", // Message sent in dms after deleting an message
 
-    /* [ ? ] */              DeleteIfPrefix7: false,     // [true/false] Enable or disable | Commands deleted if they use this prefix.
-                MessagingUserAfterDeletePrefix7: false,  // [true/false] Enable or disable | Disable messaging user if action is taken for this prefix.
-                  MessageAfterDeleteP7: 'Your command has been deleted. You know that there is commands channel for command with ? prefix. No need for braking rules. :/',
+Allowed_Channel_4: "885943457154220053", // In this configured channel
+Allowed_URL_in_Channel_4: "discord.com", // This link will be allowed, any other links will be deleted.
+MessageOnDelete_5: "@here Sorry, this channel only allows discord.com URLS", // Message sent in dms after deleting an message
 
-    /* [ ; ] */              DeleteIfPrefix8: false,     // [true/false] Enable or disable | Commands deleted if they use this prefix.
-                MessagingUserAfterDeletePrefix8: false,  // [true/false] Enable or disable | Disable messaging user if action is taken for this prefix.
-                  MessageAfterDeleteP8: 'Your command has been deleted. You know that there is commands channel for command with ; prefix. No need for braking rules. :/',
+Allowed_Channel_5: "", // In this configured channel
+Allowed_URL_in_Channel_5: "twitter.com", // This link will be allowed, any other links will be deleted.
+MessageOnDelete_5: "@here Sorry, this channel only allows twitter.com URLS", // Message sent in dms after deleting an message
 
-    /* [ : ] */              DeleteIfPrefix9: false,     // [true/false] Enable or disable | Commands deleted if they use this prefix.
-                MessagingUserAfterDeletePrefix9: false,  // [true/false] Enable or disable | Disable messaging user if action is taken for this prefix.
-                  MessageAfterDeleteP9: 'Your command has been deleted. You know that there is commands channel for command with : prefix. No need for braking rules. :/',
+Allowed_Channel_6: "", // In this configured channel
+Allowed_URL_in_Channel_6: "twitter.com", // This link will be allowed, any other links will be deleted.
+MessageOnDelete_6: "@here Sorry, this channel only allows twitter.com URLS", // Message sent in dms after deleting an message
+
+
+MessagingUserAfterDeletingLinkGlobal: true, // [true/false] Enable or disable | DM's after deleting an message from channels that dont allow any urls
+GlobalDeleteURL: "Sorry, this server does not allow URLS outside of allowed channels", // Message sent in dms after deleting an message from channels that dont allow any urls
+
+
+////////////////////////////////////////////////////
+//------------------------------------------------//
+//                  CHAT FILTER                   //
+//------------------------------------------------//
+////////////////////////////////////////////////////
+
+// Disables this section
+ChatFilter_Enable: true, // [true/false] Enable or disable | Filter in chat
+
+DM_After_Deleting: true, // [true/false] Enable or disable | Dming after deleting messages
+MessageAfterDelete_filter: "Don't use bad words.",
+bannedwords: ["fuck", "example"] // Words that trigger the filter.
+
 };
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// - FOR FUTURE USE.
-
-
-
-
-//       DeleteIfCustomPrefix1: false,         // [false/true] Disabled or enabled |
-//    MessagingUserAfterDeleteCPrefix1: false,  // [true/false] Enable or disable   |
-//       custom1: '', // Set custom prefix
-//       MessageAfterDeleteCP1: '.', // Set custom message
-//
-//       DeleteIfCustomPrefix2: false,         // [false/true] Disabled or enabled |
-//    MessagingUserAfterDeleteCPrefix2: false,  // [true/false] Enable or disable   |
-//       custom2: '', // Set custom prefix
-//       MessageAfterDeleteCP2: '.', // Set custom message
-//
-//       DeleteIfCustomPrefix3: false,         // [false/true] Disabled or enabled |
-//    MessagingUserAfterDeleteCPrefix3: false,  // [true/false] Enable or disable   |
-//       custom3: '', // Set custom prefix
-//       MessageAfterDeleteCP3: '.', // Set custom message
-//
-//       DeleteIfCustomPrefix4: false,         // [false/true] Disabled or enabled |
-//    MessagingUserAfterDeleteCPrefix4: false,  // [true/false] Enable or disable   |
-//       custom4: '', // Set custom prefix
-//       MessageAfterDeleteCP4: '.', // Set custom message
-//
-//       DeleteIfCustomPrefix5: false,         // [false/true] Disabled or enabled |
-//    MessagingUserAfterDeleteCPrefix5: false,  // [true/false] Enable or disable   |
-//       custom5: '', // Set custom prefix
-//       MessageAfterDeleteCP5: '.', // Set custom message
-//
-//       DeleteIfCustomPrefix6: false,         // [false/true] Disabled or enabled |
-//    MessagingUserAfterDeleteCPrefix6: false,  // [true/false] Enable or disable   |
-//       custom6: '', // Set custom prefix
-//       MessageAfterDeleteCP6: '.', // Set custom message
 
 
 // Copyright notice:
