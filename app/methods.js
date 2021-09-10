@@ -15,8 +15,7 @@
   Mail: refloowlibrarycontact@gmail.com
 
 * Donations:
-  Crypto: https://refloow.com/cdonate
-  Steam: https://steamcommunity.com/tradeoffer/new/?partner=908829436&token=wCNxGnyr
+  Donate: https://ko-fi.com/refloow
  --------------------------------------------------------------------------------------------*/
 
  /* 
@@ -76,6 +75,53 @@ t = module.exports = {
         request(options, look)
     },
 
+    // Function that checks if message contains urls 
+
+    containsUrl: function(message) {
+     message = message.toLowerCase()
+     // Setting url found to false as default
+     let urlFound = false
+        if (message.includes('http://') ||
+         message.includes('https://') ||
+         message.includes('www')) {
+           // Then url is found and set to true
+           urlFound = true
+     }
+     // returning the value of urlFound from this function
+     return urlFound
+   },
+
+   // Function that checks the url if one is found 
+
+    isAllowedUrl: function(message) {
+    message = message.toLowerCase()
+    return message.includes(config.Allowed_URL_in_Channel_1)
+    },
+
+    isAllowedUrl2: function(message) {
+     message = message.toLowerCase()
+     return message.includes(config.Allowed_URL_in_Channel_2)
+    },
+
+    isAllowedUrl3: function(message) {
+     message = message.toLowerCase()
+     return message.includes(config.Allowed_URL_in_Channel_3)
+    },
+
+    isAllowedUrl4: function(message) {
+     message = message.toLowerCase()
+     return message.includes(config.Allowed_URL_in_Channel_4)
+    },
+
+    isAllowedUrl5: function(message) {
+     message = message.toLowerCase()
+     return message.includes(config.Allowed_URL_in_Channel_5)
+    },
+
+    isAllowedUrl6: function(message) {
+     message = message.toLowerCase()
+     return message.includes(config.Allowed_URL_in_Channel_6)
+    },
 
     // Main feature methods
 
@@ -88,170 +134,29 @@ t = module.exports = {
         return config.MessagingUserAfterDelete == true;
     },
 
-    DisableUpdateNotification: function() {
-        return config.UpdateNotification == true;
+    MessageAfterDeleteLink: function() {
+        return config.MessagingUserAfterDeletingLink == true;
     },
 
-         // Methods for disabling each prefix
-
-
-//----------------------------------------------//
-
-    DisablePrefix1: function() {
-        return config.DeleteIfPrefix1 == true;
+    MessageAfterDeleteFilter: function() {
+        return config.DM_After_Deleting == true;
     },
 
-        MessagePrefix1_Enable: function() {
-        return config.MessagingUserAfterDeletePrefix1 == true;
+    MessageAfterDeleteLinkGlobal: function() {
+        return config.MessagingUserAfterDeletingLinkGlobal == true;
     },
 
-    // --------------------
-
-    DisablePrefix2: function() {
-        return config.DeleteIfPrefix2 == true;
+    ModeratingLinks: function() {
+        return config.ModeratingLinks_Enable == true;
     },
 
-        MessagePrefix2_Enable: function() {
-        return config.MessagingUserAfterDeletePrefix2 == true;
-    },
-
-    // --------------------
-
-    DisablePrefix3: function() {
-        return config.DeleteIfPrefix3 == true;
-    },
-
-        MessagePrefix3_Enable: function() {
-        return config.MessagingUserAfterDeletePrefix3 == true;
-    },
-
-    // --------------------
-
-    DisablePrefix4: function() {
-        return config.DeleteIfPrefix4 == true;
-    },
-
-        MessagePrefix4_Enable: function() {
-        return config.MessagingUserAfterDeletePrefix4 == true;
-    },
-
-    // --------------------
-
-    DisablePrefix5: function() {
-        return config.DeleteIfPrefix5 == true;
-    },
-
-        MessagePrefix5_Enable: function() {
-        return config.MessagingUserAfterDeletePrefix5 == true;
-    },
-
-    // --------------------
-
-    DisablePrefix6: function() {
-        return config.DeleteIfPrefix6 == true;
-    },
-
-        MessagePrefix6_Enable: function() {
-        return config.MessagingUserAfterDeletePrefix6 == true;
-    },
-
-    // --------------------
-
-    DisablePrefix7: function() {
-        return config.DeleteIfPrefix7 == true;
-    },
-
-        MessagePrefix7_Enable: function() {
-        return config.MessagingUserAfterDeletePrefix7 == true;
-    },
-
-    // --------------------
-
-    DisablePrefix8: function() {
-        return config.DeleteIfPrefix8 == true;
-    },
-
-        MessagePrefix8_Enable: function() {
-        return config.MessagingUserAfterDeletePrefix8 == true;
-    },
-
-    // --------------------
-
-    DisablePrefix9: function() {
-        return config.DeleteIfPrefix9 == true;
-    },
-
-        MessagePrefix9_Enable: function() {
-        return config.MessagingUserAfterDeletePrefix9 == true;
-    },
-
-    // --------------------
+    ChatFilterEnabled: function() {
+        return config.ChatFilter_Enable == true;
+    }
 
 //----------------------------------------------//
 
 
-        // Methods for disabling each custom prefix - FOR FUTURE USE.
-
-
-//----------------------------------------------//
-
-//    DisableCustomPrefix1: function() {
-//        return config.DeleteIfCustomPrefix1 == true;
-//    },
-//
-//        MessageCustomPrefix1_Enable: function() {
-//        return config.MessagingUserAfterDeleteCPrefix1 == true;
-//    },
-//
-//    // --------------------
-//
-//    DisableCustomPrefix2: function() {
-//        return config.DeleteIfCustomPrefix2 == true;
-//    },
-//
-//        MessageCustomPrefix2_Enable: function() {
-//        return config.MessagingUserAfterDeleteCPrefix2 == true;
-//    },
-//
-//    // --------------------
-//
-//    DisableCustomPrefix3: function() {
-//        return config.DeleteIfCustomPrefix3 == true;
-//    },
-//
-//        MessageCustomPrefix3_Enable: function() {
-//        return config.MessagingUserAfterDeleteCPrefix3 == true;
-//    },
-//
-//    // --------------------
-//
-//    DisableCustomPrefix4: function() {
-//        return config.DeleteIfCustomPrefix4 == true;
-//    },
-//
-//        MessageCustomPrefix4_Enable: function() {
-//        return config.MessagingUserAfterDeleteCPrefix4 == true;
-//    },
-//
-//    // --------------------
-//
-//    DisableCustomPrefix5: function() {
-//        return config.DeleteIfCustomPrefix5 == true;
-//    },
-//
-//        MessageCustomPrefix5_Enable: function() {
-//        return config.MessagingUserAfterDeleteCPrefix5 == true;
-//    },
-//
-//    // --------------------
-//
-//    DisableCustomPrefix6: function() {
-//        return config.DeleteIfCustomPrefix6 == true;
-//    },
-//
-//        MessageCustomPrefix6_Enable: function() {
-//        return config.MessagingUserAfterDeleteCPrefix6 == true;
-//    }
 }
 
 // Copyright notice:
