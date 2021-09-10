@@ -39,7 +39,6 @@
 Removing copyright notice & distributing, using or selling the software without
 the original license and copyright notice is licence agreement breach and its considered criminal offense and piracy.
 ===================================================================================
-
 */
 
 // Checking if all modules are installed correctly
@@ -79,12 +78,11 @@ require('./app/app.js');
 
 
 // Checking for correct version (updates) for bot on github
-
-if(method.DisableUpdateNotification()) {
 	method.check()
-}
+
 
 // Copyright notice:
 
 /* Original work: Copyright (c) 2020-2021 Refloow All rights reserved.
   Code origin (Free GitHub publish): https://github.com/OSL-Works/Discord-Channel-Moderator*/
+
