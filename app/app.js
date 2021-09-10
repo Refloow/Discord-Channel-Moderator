@@ -13,10 +13,6 @@
   Discord Support Server: https://discord.gg/D8WCtDD
   Main developer steam: https://steamcommunity.com/id/MajokingGames/ 
   Mail: refloowlibrarycontact@gmail.com
-  
-  * Donations:
-  Crypto: https://refloow.com/cdonate
-  Steam: https://steamcommunity.com/tradeoffer/new/?partner=908829436&token=wCNxGnyr
 
  --------------------------------------------------------------------------------------------*/
 
@@ -43,6 +39,17 @@ the original license and copyright notice is licence agreement breach and its co
 
 */
 
+
+
+
+
+////////////////////////////////////////////////////
+//------------------------------------------------//
+//      Scripp checks, imports & functions        //
+//------------------------------------------------//
+////////////////////////////////////////////////////
+
+
 // Checking if all modules are installed correctly 
 
 try {
@@ -64,6 +71,12 @@ const refloow = new Discord.Client();
 var servers = {};
 
 
+////////////////////////////////////////////////////
+//------------------------------------------------//
+//              Starting the client               //
+//------------------------------------------------//
+////////////////////////////////////////////////////
+
 // Client on 'ready'
 
 refloow.on('ready', () => {
@@ -76,223 +89,206 @@ refloow.on('ready', () => {
         guild.channels.forEach((channel) => {
         })
     })
-
-    let currentbottradesChannel = refloow.channels.get(config.Discord_Message_Chanell)
 })
 
-// Client on 'message'
+
+////////////////////////////////////////////////////
+//------------------------------------------------//
+//              Moderating links                  //
+//------------------------------------------------//
+////////////////////////////////////////////////////
+
+
+// If moderating links is enabled proceed
+if(method.ModeratingLinks()) {
+  // on message
+  refloow.on("message", (message) => {
+    // check if message is sent in allowd channel
+   if (message.channel.id === config.Allowed_Channel_1) {
+     // check if the message in allowed channel has url
+    if (method.containsUrl(message.content)) {
+      // check if url is allowed
+      if (method.isAllowedUrl(message.content)) {
+          } else {
+            // if it isnt allowed url
+            // tell user url is not allowed
+            if(method.MessageAfterDeleteLink()) {
+            message.author.send(config.MessageOnDelete_1)
+            }
+            // then delete it
+            message.delete()
+          }
+      } else {
+        // it's not an url
+        // do nothing
+      }
+    } else if (message.channel.id === config.Allowed_Channel_2) {
+     // check if the message in allowed channel has url
+    if (method.containsUrl(message.content)) {
+      // check if url is allowed
+      if (method.isAllowedUrl2(message.content)) {
+          } else {
+            // if it isnt allowed url
+            // tell user url is not allowed
+            if(method.MessageAfterDeleteLink()) {
+            message.author.send(config.MessageOnDelete_2)
+            }
+            // then delete it
+            message.delete()
+          }
+      } else {
+        // it's not an url
+        // do nothing
+      }
+    } else if (message.channel.id === config.Allowed_Channel_3) {
+     // check if the message in allowed channel has url
+    if (method.containsUrl(message.content)) {
+      // check if url is allowed
+      if (method.isAllowedUrl3(message.content)) {
+          } else {
+            // if it isnt allowed url
+            // tell user url is not allowed
+            if(method.MessageAfterDeleteLink()) {
+            message.author.send(config.MessageOnDelete_3)
+            }
+            // then delete it
+            message.delete()
+          }
+      } else {
+        // it's not an url
+        // do nothing
+      }
+    } else if (message.channel.id === config.Allowed_Channel_4) {
+     // check if the message in allowed channel has url
+    if (method.containsUrl(message.content)) {
+      // check if url is allowed
+      if (method.isAllowedUrl4(message.content)) {
+          } else {
+            // if it isnt allowed url
+            // tell user url is not allowed
+            if(method.MessageAfterDeleteLink()) {
+            message.author.send(config.MessageOnDelete_4)
+            }
+            // then delete it
+            message.delete()
+          }
+      } else {
+        // it's not an url
+        // do nothing
+      }
+    } else if (message.channel.id === config.Allowed_Channel_5) {
+     // check if the message in allowed channel has url
+    if (method.containsUrl(message.content)) {
+      // check if url is allowed
+      if (method.isAllowedUrl5(message.content)) {
+          } else {
+            // if it isnt allowed url
+            // tell user url is not allowed
+            if(method.MessageAfterDeleteLink()) {
+            message.author.send(config.MessageOnDelete_5)
+            }
+            // then delete it
+            message.delete()
+          }
+      } else {
+        // it's not an url
+        // do nothing
+      }
+    } else if (message.channel.id === config.Allowed_Channel_6) {
+     // check if the message in allowed channel has url
+    if (method.containsUrl(message.content)) {
+      // check if url is allowed
+      if (method.isAllowedUrl6(message.content)) {
+          } else {
+            // if it isnt allowed url
+            // tell user url is not allowed
+            if(method.MessageAfterDeleteLink()) {
+            message.author.send(config.MessageOnDelete_6)
+            }
+            // then delete it
+            message.delete()
+          }
+      } else {
+        // it's not an url
+        // do nothing
+      }
+    }
+
+     else {
+    }
+if (!((message.channel.id == config.Allowed_Channel_1) || (message.channel.id == config.Allowed_Channel_2) || (message.channel.id == config.Allowed_Channel_3) || (message.channel.id == config.Allowed_Channel_4) || (message.channel.id == config.Allowed_Channel_5) || (message.channel.id == config.Allowed_Channel_6))) {
+  if (method.containsUrl(message.content)) {
+    if(method.MessageAfterDeleteLink()) {
+          message.author.send(config.GlobalDeleteURL)
+          }
+            // then delete it
+            message.delete()
+          }
+        }
+});
+};
+
+
+
+////////////////////////////////////////////////////
+//------------------------------------------------//
+//     Cleaning regular chat from bot commands    //
+//------------------------------------------------//
+////////////////////////////////////////////////////
+
+
 if(method.DeletingCommands()) {
   refloow.on("message", (message) => {
 
+     let blacklisted = config.blacklisted;
 
      // PREFIX ACTIONS
 
-    if(method.DisablePrefix1()) {
-      if (message.content.startsWith("!")) {
+      for (var i in blacklisted) {
+      if (message.content.startsWith(blacklisted[i])) {
         if(method.DeletingCommands()) {
           message.delete()
         }
         if(method.MessageAfterDelete()) {
-          if(method.MessagePrefix1_Enable()) {
-            message.author.send(config.MessageAfterDeleteP1);
-            }
-          }
-        }
-    }
-
-    if(method.DisablePrefix2()) {  
-      if (message.content.startsWith("+")) {
-        if(method.DeletingCommands()) {
-          message.delete()
-        }
-        if(method.MessageAfterDelete()) {
-          if(method.MessagePrefix2_Enable()) {
-            message.author.send(config.MessageAfterDeleteP2);
-            }
-          }
-        }
-    }
-
-    if(method.DisablePrefix3()) {
-      if (message.content.startsWith(".")) {
-        if(method.DeletingCommands()) {
-          message.delete()
-        }
-        if(method.MessageAfterDelete()) {
-          if(method.MessagePrefix3_Enable()) {
-            message.author.send(config.MessageAfterDeleteP3);
-            }
-          }
-        }
-    }
-
-    if(method.DisablePrefix4()) {
-      if (message.content.startsWith("$")) {
-        if(method.DeletingCommands()) {
-          message.delete()
-        }
-        if(method.MessageAfterDelete()) {
-          if(method.MessagePrefix4_Enable()) {
-            message.author.send(config.MessageAfterDeleteP4);
-            }
-          }
-        }
-    }
-
-      
-    if(method.DisablePrefix5()) {
-      if (message.content.startsWith("/")) {
-        if(method.DeletingCommands()) {
-          message.delete()
-        }
-        if(method.MessageAfterDelete()) {
-          if(method.MessagePrefix5_Enable()) {
-            message.author.send(config.MessageAfterDeleteP5);
-            }
+            message.author.send(config.MessageAfterDelete);
           }
         }
       }
+  });
+}
 
-    if(method.DisablePrefix6()) {
-      if (message.content.startsWith("-")) {
-        if(method.DeletingCommands()) {
+////////////////////////////////////////////////////
+//------------------------------------------------//
+//         Blacklisted words filter               //
+//------------------------------------------------//
+////////////////////////////////////////////////////
+
+
+if(method.ChatFilterEnabled()) {
+  refloow.on("message", (message) => {
+
+   let bannedwords = config.bannedwords;
+
+     // PREFIX ACTIONS
+
+      for (var i in bannedwords) {
+      if (message.content.toLowerCase().includes(bannedwords[i])) {
           message.delete()
-        }
-        if(method.MessageAfterDelete()) {
-          if(method.MessagePrefix6_Enable()) {
-            message.author.send(config.MessageAfterDeleteP6);
-            }
+        if(method.MessageAfterDeleteFilter()) {
+            message.author.send(config.MessageAfterDelete_filter);
           }
         }
       }
-
-    if(method.DisablePrefix7()) {
-      if (message.content.startsWith("?")) {
-        if(method.DeletingCommands()) {
-          message.delete()
-        }
-        if(method.MessageAfterDelete()) {
-          if(method.MessagePrefix7_Enable()) {
-            message.author.send(config.MessageAfterDeleteP7);
-            }
-          }
-        }
-      }
-
-    if(method.DisablePrefix8()) {
-      if (message.content.startsWith(":")) {
-        if(method.DeletingCommands()) {
-          message.delete()
-        }
-        if(method.MessageAfterDelete()) {
-          if(method.MessagePrefix8_Enable()) {
-            message.author.send(config.MessageAfterDeleteP8);
-            }
-          }
-        }
-      }
-
-    if(method.DisablePrefix9()) {
-      if (message.content.startsWith(";")) {
-        if(method.DeletingCommands()) {
-          message.delete()
-        }
-        if(method.MessageAfterDelete()) {
-          if(method.MessagePrefix9_Enable()) {
-            message.author.send(config.MessageAfterDeleteP9);
-            }
-          }
-        }
-      }
-
-      
-    // CUSTOM PREFIX ACTIONS - FOR FUTURE UPDATE
-
-//    if(method.DisableCustomPrefix1()) { 
-//      if (message.content.startsWith(config.custom1)) {
-//        if(method.DeletingCommands()) {
-//              message.delete()
-//            if(method.MessageAfterDelete()) {
-//              if(method.MessageCustomPrefix1_Enable()) {
-//                message.author.send(config.MessageAfterDeleteCP1);
-//              }
-//            }
-//          }
-//       }
-//    }
-
-//    if(method.DisableCustomPrefix1()) {
-//      if (message.content.startsWith(config.custom2)) {
-//        if(method.DeletingCommands()) {
-//              message.delete()
-//            if(method.MessageAfterDelete()) {
-//              if(method.MessageCustomPrefix2_Enable()) {
-//                message.author.send(config.MessageAfterDeleteCP2);
-//              }
-//            }
-//          }
-//        }
-//    }
-
-//    if(method.DisableCustomPrefix1()) {
-//      if (message.content.startsWith(config.custom3)) {
-//        if(method.DeletingCommands()) {
-//              message.delete()
-//            if(method.MessageAfterDelete()) {
-//              if(method.MessageCustomPrefix3_Enable()) {
-//                message.author.send(config.MessageAfterDeleteCP3);
-//              }
-//            }
-//          }
-//        }
-//    }
-
-//    if(method.DisableCustomPrefix1()) {
-//      if (message.content.startsWith(config.custom4)) {
-//        if(method.DeletingCommands()) {
-//              message.delete()
-//            if(method.MessageAfterDelete()) {
-//              if(method.MessageCustomPrefix4_Enable()) {
-//                message.author.send(config.MessageAfterDeleteCP4);
-//              }
-//            }
-//          }
-//        }
-//      }
-
-//    if(method.DisableCustomPrefix1()) {
-//      if (message.content.startsWith(config.custom5)) {
-//        if(method.DeletingCommands()) {
-//              message.delete()
-//            if(method.MessageAfterDelete()) {
-//              if(method.MessageCustomPrefix5_Enable()) {
-//                message.author.send(config.MessageAfterDeleteCP5);
-//              }
-//            }
-//          }
-//        }
-//    }
-
-//    if(method.DisableCustomPrefix1()) {
-//      if (message.content.startsWith(config.custom6)) {
-//        if(method.DeletingCommands()) {
-//              message.delete()
-//            if(method.MessageAfterDelete()) {
-//              if(method.MessageCustomPrefix6_Enable()) {
-//                message.author.send(config.MessageAfterDeleteCP6);
-//              }
-//           }
-//          }
-//        }
-//    }
-
-
-
   });
 }
 
 
-// Loging in
+
+////////////////////////////////////////////////////
+//------------------------------------------------//
+//                  Logging in                    //
+//------------------------------------------------//
+////////////////////////////////////////////////////
 
 refloow.login(config.Discord_Login)
 
