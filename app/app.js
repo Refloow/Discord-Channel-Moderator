@@ -45,7 +45,7 @@ the original license and copyright notice is licence agreement breach and its co
 
 ////////////////////////////////////////////////////
 //------------------------------------------------//
-//      Scripp checks, imports & functions        //
+//             Script checks, imports             //
 //------------------------------------------------//
 ////////////////////////////////////////////////////
 
@@ -122,6 +122,7 @@ if(method.ModeratingLinks()) {
         // it's not an url
         // do nothing
       }
+     // Check if channel is allowed channel
     } else if (message.channel.id === config.Allowed_Channel_2) {
      // check if the message in allowed channel has url
     if (method.containsUrl(message.content)) {
@@ -140,6 +141,7 @@ if(method.ModeratingLinks()) {
         // it's not an url
         // do nothing
       }
+      // Check if channel is allowed channel
     } else if (message.channel.id === config.Allowed_Channel_3) {
      // check if the message in allowed channel has url
     if (method.containsUrl(message.content)) {
@@ -158,6 +160,7 @@ if(method.ModeratingLinks()) {
         // it's not an url
         // do nothing
       }
+      // Check if channel is allowed channel
     } else if (message.channel.id === config.Allowed_Channel_4) {
      // check if the message in allowed channel has url
     if (method.containsUrl(message.content)) {
@@ -176,6 +179,7 @@ if(method.ModeratingLinks()) {
         // it's not an url
         // do nothing
       }
+      // Check if channel is allowed channel
     } else if (message.channel.id === config.Allowed_Channel_5) {
      // check if the message in allowed channel has url
     if (method.containsUrl(message.content)) {
@@ -194,6 +198,7 @@ if(method.ModeratingLinks()) {
         // it's not an url
         // do nothing
       }
+      // Check if channel is allowed channel
     } else if (message.channel.id === config.Allowed_Channel_6) {
      // check if the message in allowed channel has url
     if (method.containsUrl(message.content)) {
@@ -216,8 +221,11 @@ if(method.ModeratingLinks()) {
 
      else {
     }
+// Check if message is not in allowed channels
 if (!((message.channel.id == config.Allowed_Channel_1) || (message.channel.id == config.Allowed_Channel_2) || (message.channel.id == config.Allowed_Channel_3) || (message.channel.id == config.Allowed_Channel_4) || (message.channel.id == config.Allowed_Channel_5) || (message.channel.id == config.Allowed_Channel_6))) {
+  // Check if message contains url
   if (method.containsUrl(message.content)) {
+    // Check configuration
     if(method.MessageAfterDeleteLink()) {
           message.author.send(config.GlobalDeleteURL)
           }
@@ -236,20 +244,22 @@ if (!((message.channel.id == config.Allowed_Channel_1) || (message.channel.id ==
 //------------------------------------------------//
 ////////////////////////////////////////////////////
 
-
+// If this feature is enabled (checks config)
 if(method.DeletingCommands()) {
+  // On message event
   refloow.on("message", (message) => {
 
+     // Importing Blacklisted prefixes from config
      let blacklisted = config.blacklisted;
 
-     // PREFIX ACTIONS
-
       for (var i in blacklisted) {
+      // If message is command (contains prefix)
       if (message.content.startsWith(blacklisted[i])) {
-        if(method.DeletingCommands()) {
+          // Delete it
           message.delete()
-        }
+        // Check configuration
         if(method.MessageAfterDelete()) {
+            // Message user if enabled
             message.author.send(config.MessageAfterDelete);
           }
         }
@@ -263,18 +273,22 @@ if(method.DeletingCommands()) {
 //------------------------------------------------//
 ////////////////////////////////////////////////////
 
-
+// Is this feature enabled (checks config)
 if(method.ChatFilterEnabled()) {
+  // On message event
   refloow.on("message", (message) => {
 
+   // Importing words from config
    let bannedwords = config.bannedwords;
 
-     // PREFIX ACTIONS
-
       for (var i in bannedwords) {
+      // If message contains bad words
       if (message.content.toLowerCase().includes(bannedwords[i])) {
+          // Delete it
           message.delete()
+        // Checks config
         if(method.MessageAfterDeleteFilter()) {
+            // Messageu user if enabled
             message.author.send(config.MessageAfterDelete_filter);
           }
         }
