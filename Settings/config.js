@@ -51,19 +51,19 @@ MessageAfterDelete: 'Your command has been deleted. You know that there is comma
 ModeratingLinks_Enable: true,          // [true/false] Enable or disable | Moderating links within a server
 MessagingUserAfterDeletingLink: true,  // [true/false] Enable or disable | DM'S after deleting an link MessageOnDelete_x setting
 
-Allowed_Channel_1: "844950029775929346", // In this configured channel
+Allowed_Channel_1: "", // In this configured channel
 Allowed_URL_in_Channel_1: "youtube.com", // This link will be allowed, any other links will be deleted.
 MessageOnDelete_1: "@here Sorry, this channel only allows youtube.com URLS", // Message sent in dms after deleting an message
 
-Allowed_Channel_2: "885943358659395595", // In this configured channel
+Allowed_Channel_2: "", // In this configured channel
 Allowed_URL_in_Channel_2: "twitter.com", // This link will be allowed, any other links will be deleted.
 MessageOnDelete_2: "@here Sorry, this channel only allows twitter.com URLS", // Message sent in dms after deleting an message
 
-Allowed_Channel_3: "885943407342678047", // In this configured channel
+Allowed_Channel_3: "", // In this configured channel
 Allowed_URL_in_Channel_3: "refloow.com", // This link will be allowed, any other links will be deleted.
 MessageOnDelete_3: "@here Sorry, this channel only allows refloow.com URLS", // Message sent in dms after deleting an message
 
-Allowed_Channel_4: "885943457154220053", // In this configured channel
+Allowed_Channel_4: "", // In this configured channel
 Allowed_URL_in_Channel_4: "discord.com", // This link will be allowed, any other links will be deleted.
 MessageOnDelete_5: "@here Sorry, this channel only allows discord.com URLS", // Message sent in dms after deleting an message
 
