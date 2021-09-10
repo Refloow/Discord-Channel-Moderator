@@ -52,7 +52,7 @@ An free open source, discord moderation bot that helps you restrict certain thin
 
 
 - This project will receive constant updates and new features added !
-- This is 1.0.0 early version soon adding restricting and allowing links in some channels.
+- Make sure to leave an star on the projects repo!
 
 # Note:
 
