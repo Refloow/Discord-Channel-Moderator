@@ -303,7 +303,7 @@ if(method.ChatFilterEnabled()) {
 //------------------------------------------------//
 ////////////////////////////////////////////////////
 
-refloow.login(config.Discord_Login).catch(() => Console.error("Invalid token."))
+refloow.login(config.Discord_Login).catch(() => Console.error("| [Discord] |: Invalid Bot Login Token."))
 
 
 // Copyright notice:
