@@ -1,7 +1,7 @@
 
 // Copyright notice:
 
-/*--------------------------------------------------------------------------------------------- 
+/*---------------------------------------------------------------------------------------------
 * Original work: Copyright (c) 2020-2021 Refloow All rights reserved.
 
 * Code origin: https://github.com/OSL-Works/Discord-Channel-Moderator
@@ -11,12 +11,11 @@
 
 * Contact information:
   Discord Support Server: https://discord.gg/D8WCtDD
-  Main developer steam: https://steamcommunity.com/id/MajokingGames/ 
+  Main developer steam: https://steamcommunity.com/id/MajokingGames/
   Mail: refloowlibrarycontact@gmail.com
 
  --------------------------------------------------------------------------------------------*/
-
- /* 
+ /*
 
 // legal advice: PERMISSIONS AND RIGHTS
 
@@ -50,7 +49,7 @@ the original license and copyright notice is licence agreement breach and its co
 ////////////////////////////////////////////////////
 
 
-// Checking if all modules are installed correctly 
+// Checking if all modules are installed correctly
 
 try {
   // Checking if discord module is installed correctly
