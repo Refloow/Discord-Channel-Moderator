@@ -1,7 +1,7 @@
 
 // Copyright notice:
 
-/*--------------------------------------------------------------------------------------------- 
+/*---------------------------------------------------------------------------------------------
 * Original work: Copyright (c) 2020-2021 Refloow All rights reserved.
 
 * Code origin: https://github.com/OSL-Works/Discord-Channel-Moderator
@@ -18,7 +18,7 @@
   Donate: https://ko-fi.com/refloow
  --------------------------------------------------------------------------------------------*/
 
- /* 
+ /*
 
 // legal advice: PERMISSIONS AND RIGHTS
 
@@ -69,13 +69,13 @@ t = module.exports = {
             const v = package.version;
             if(page.version != v)
                 console.log(`| [GitHub] | VERSION |:  ${'New update available for '+package.name+ ' v'+page.version.green+'! You\'re currently only running version '+v.yellow+''}\n${`| [GitHub] | VERSION |: Go to https://github.com/Refloow/Steam-Card-Bot-PRO to update now!`}\n\n`)
-            else 
+            else
                 console.log(`| [GitHub] | VERSION |: You're running the latest version of Discord-Channel-Moderator (v${v.green})\n\n`)
         }
         request(options, look)
     },
 
-    // Function that checks if message contains urls 
+    // Function that checks if message contains urls
 
     containsUrl: function(message) {
      message = message.toLowerCase()
@@ -91,7 +91,7 @@ t = module.exports = {
      return urlFound
    },
 
-   // Function that checks the url if one is found 
+   // Function that checks the url if one is found
 
     isAllowedUrl: function(message) {
     message = message.toLowerCase()
