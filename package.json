@@ -9,7 +9,7 @@
   "homepage": "https://github.com/Refloow/Discord-Channel-Moderator/blob/master/README.md",
   "dependencies": {
     "colors": "^1.1.2",
-    "console-master"^1.0.3",
+    "console-master: "^1.0.3",
     "console-stamp": "^0.2.7",
     "discord.js": "^11.4.2",
     "moment": "^2.22.2",
