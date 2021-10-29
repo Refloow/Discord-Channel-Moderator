@@ -50,6 +50,7 @@ An free open source, discord moderation bot that helps you restrict certain thin
   </a>
 </p>
 
+<h3 align= "center"> Leave a star, we push updates based on activity </h3>
 
 - This project will receive constant updates and new features added !
 - Make sure to leave an star on the projects repo!
