@@ -4,18 +4,16 @@
 /*---------------------------------------------------------------------------------------------
 * Original work: Copyright (c) 2020-2021 Refloow All rights reserved.
 
-* Code origin: https://github.com/OSL-Works/Discord-Channel-Moderator
+* Code origin: https://github.com/Refloow/Discord-Channel-Moderator
 * Developer name: Veljko Vuckovic
 * Licensed under the MIT License. See LICENSE in the project root for license information.
-* Published License: https://github.com/OSL-Works/Discord-Channel-Moderator/blob/master/LICENSE
+* Published License: https://github.com/Refloow/Discord-Channel-Moderator/blob/master/LICENSE
 
 * Contact information:
   Discord Support Server: https://discord.gg/D8WCtDD
   Main developer steam: https://steamcommunity.com/id/MajokingGames/ 
   Mail: refloowlibrarycontact@gmail.com
-
-* Donations:
-  Donate: https://ko-fi.com/refloow
+  
  --------------------------------------------------------------------------------------------*/
 
  /*
@@ -162,5 +160,5 @@ t = module.exports = {
 // Copyright notice:
 
 /* Original work: Copyright (c) 2020-2021 Refloow All rights reserved.
-  Code origin (Free GitHub publish): https://github.com/OSL-Works/Discord-Channel-Moderator*/
+  Code origin (Free GitHub publish): https://github.com/Refloow/Discord-Channel-Moderator*/
 
