@@ -13,7 +13,7 @@ echo .
 echo // Copyright notice:
 echo .
 echo /* Original work: Copyright (c) 2020-2021 Refloow All rights reserved.
-echo  Code origin (Free GitHub publish): https://github.com/OSL-Works/Discord-Channel-Moderator */
+echo  Code origin (Free GitHub publish): https://github.com/Refloow/Discord-Channel-Moderator */
 echo .
 echo .
 explorer "https://discord.gg/D8WCtDD"
