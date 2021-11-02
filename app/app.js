@@ -4,10 +4,10 @@
 /*---------------------------------------------------------------------------------------------
 * Original work: Copyright (c) 2020-2021 Refloow All rights reserved.
 
-* Code origin: https://github.com/OSL-Works/Discord-Channel-Moderator
+* Code origin: https://github.com/Refloow/Discord-Channel-Moderator
 * Developer name: Veljko Vuckovic
 * Licensed under the MIT License. See LICENSE in the project root for license information.
-* Published License: https://github.com/OSL-Works/Discord-Channel-Moderator/blob/master/LICENSE
+* Published License: https://github.com/Refloow/Discord-Channel-Moderator/blob/master/LICENSE
 
 * Contact information:
   Discord Support Server: https://discord.gg/D8WCtDD
@@ -309,5 +309,5 @@ refloow.login(config.Discord_Login).catch(() => Console.error("| [Discord] |: In
 // Copyright notice:
 
 /* Original work: Copyright (c) 2020-2021 Refloow All rights reserved.
-  Code origin (Free GitHub publish): https://github.com/OSL-Works/Discord-Channel-Moderator*/
+  Code origin (Free GitHub publish): https://github.com/Refloow/Discord-Channel-Moderator*/
 
