@@ -114,8 +114,11 @@ if(method.ModeratingLinks()) {
             if(method.MessageAfterDeleteLink()) {
             message.author.send(config.MessageOnDelete_1)
             }
+          // If user has required permissions in channel
+          if(message.guild.me.permissionsIn(message.channel).has(["SEND_MESSAGES", "MANAGE_MESSAGES"])) {
             // then delete it
             message.delete()
+          } else {Console.false('| [Discord] |: Bot missing channel permissions: SEND_MESSAGES & MANAGE_MESSAGES')}
           }
       } else {
         // it's not an url
@@ -133,8 +136,11 @@ if(method.ModeratingLinks()) {
             if(method.MessageAfterDeleteLink()) {
             message.author.send(config.MessageOnDelete_2)
             }
+          // If user has required permissions in channel
+          if(message.guild.me.permissionsIn(message.channel).has(["SEND_MESSAGES", "MANAGE_MESSAGES"])) {
             // then delete it
             message.delete()
+            } else {Console.false('| [Discord] |: Bot missing channel permissions: SEND_MESSAGES & MANAGE_MESSAGES')}
           }
       } else {
         // it's not an url
@@ -152,8 +158,11 @@ if(method.ModeratingLinks()) {
             if(method.MessageAfterDeleteLink()) {
             message.author.send(config.MessageOnDelete_3)
             }
+          // If user has required permissions in channel
+          if(message.guild.me.permissionsIn(message.channel).has(["SEND_MESSAGES", "MANAGE_MESSAGES"])) {
             // then delete it
             message.delete()
+            } else {Console.false('| [Discord] |: Bot missing channel permissions: SEND_MESSAGES & MANAGE_MESSAGES')}
           }
       } else {
         // it's not an url
@@ -171,8 +180,11 @@ if(method.ModeratingLinks()) {
             if(method.MessageAfterDeleteLink()) {
             message.author.send(config.MessageOnDelete_4)
             }
+          // If user has required permissions in channel
+          if(message.guild.me.permissionsIn(message.channel).has(["SEND_MESSAGES", "MANAGE_MESSAGES"])) {
             // then delete it
             message.delete()
+            } else {Console.false('| [Discord] |: Bot missing channel permissions: SEND_MESSAGES & MANAGE_MESSAGES')}
           }
       } else {
         // it's not an url
@@ -190,8 +202,11 @@ if(method.ModeratingLinks()) {
             if(method.MessageAfterDeleteLink()) {
             message.author.send(config.MessageOnDelete_5)
             }
+          // If user has required permissions in channel
+          if(message.guild.me.permissionsIn(message.channel).has(["SEND_MESSAGES", "MANAGE_MESSAGES"])) {
             // then delete it
             message.delete()
+            } else {Console.false('| [Discord] |: Bot missing channel permissions: SEND_MESSAGES & MANAGE_MESSAGES')}
           }
       } else {
         // it's not an url
@@ -209,8 +224,11 @@ if(method.ModeratingLinks()) {
             if(method.MessageAfterDeleteLink()) {
             message.author.send(config.MessageOnDelete_6)
             }
+          // If user has required permissions in channel
+          if(message.guild.me.permissionsIn(message.channel).has(["SEND_MESSAGES", "MANAGE_MESSAGES"])) {
             // then delete it
             message.delete()
+            } else {Console.false('| [Discord] |: Bot missing channel permissions: SEND_MESSAGES & MANAGE_MESSAGES')}
           }
       } else {
         // it's not an url
@@ -228,8 +246,11 @@ if (!((message.channel.id == config.Allowed_Channel_1) || (message.channel.id ==
     if(method.MessageAfterDeleteLink()) {
           message.author.send(config.GlobalDeleteURL)
           }
+          // If user has required permissions in channel
+          if(message.guild.me.permissionsIn(message.channel).has(["SEND_MESSAGES", "MANAGE_MESSAGES"])) {
             // then delete it
             message.delete()
+            } else {Console.false('| [Discord] |: Bot missing channel permissions: SEND_MESSAGES & MANAGE_MESSAGES')}
           }
         }
 });
@@ -255,13 +276,17 @@ if(method.DeletingCommands()) {
       // If message is command (contains prefix)
       if (message.content.startsWith(blacklisted[i])) {
           // Delete it
+          // If user has required permissions in channel
+          if(message.guild.me.permissionsIn(message.channel).has(["SEND_MESSAGES", "MANAGE_MESSAGES"])) {
+          // Delete the message
           message.delete()
         // Check configuration
         if(method.MessageAfterDelete()) {
             // Message user if enabled
             message.author.send(config.MessageAfterDelete);
           }
-        }
+        } else {Console.false('| [Discord] |: Bot missing channel permissions: SEND_MESSAGES & MANAGE_MESSAGES')}
+  }
       }
   });
 }
@@ -284,13 +309,16 @@ if(method.ChatFilterEnabled()) {
       // If message contains bad words
       if (message.content.toLowerCase().includes(bannedwords[i])) {
           // Delete it
+                    // If user has required permissions in channel
+          if(message.guild.me.permissionsIn(message.channel).has(["SEND_MESSAGES", "MANAGE_MESSAGES"])) {
           message.delete()
         // Checks config
         if(method.MessageAfterDeleteFilter()) {
             // Messageu user if enabled
             message.author.send(config.MessageAfterDelete_filter);
           }
-        }
+        }  else {Console.false('| [Discord] |: Bot missing channel permissions: SEND_MESSAGES & MANAGE_MESSAGES')}
+  }
       }
   });
 }
