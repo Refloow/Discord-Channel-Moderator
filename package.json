@@ -1,6 +1,6 @@
 {
   "name": "discord-channel-moderator",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Discord Moderation Bot that helps you filter commands, (allow) links or filter words in channels where they were not allowed. Script is Node.js based using discord.js built by @Refloow",
   "main": "index.js",
   "bugs": {
