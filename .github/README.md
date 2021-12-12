@@ -132,3 +132,9 @@ Or mail at refloowlibrarycontact@gmail.com <br>
  - In the channels where you want commands to take place set bots TEXT PREMISSIONS - Read Messages & Manage Messages to false
  
  Check images in (Discord-Channel-Moderator/Settings/Server Setup Images) for visual guide
+ 
+ 
+## Stars over time
+
+[![Stargazers over time](https://starchart.cc/Refloow/Discord-Channel-Moderator.svg)](https://starchart.cc/Refloow/Discord-Channel-Moderator)
+
