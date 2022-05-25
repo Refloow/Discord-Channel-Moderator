@@ -20,13 +20,13 @@ An free open source, discord moderation bot that helps you restrict certain thin
   <img src="https://img.shields.io/github/package-json/v/Refloow/Discord-Channel-Moderator.svg" alt="GitHub package version">
   </a>
     <a href="https://github.com/Refloow/Discord-Channel-Moderator/network">
-  <img src="https://img.shields.io/github/forks/Refloow/Discord-Channel-Moderator.svg?style=plastic" alt="GitHub forks">
+  <img src="https://img.shields.io/github/forks/Refloow/Discord-Channel-Moderator.svg" alt="GitHub forks">
   </a>
     <a href="https://github.com/Refloow/Discord-Channel-Moderator/stargazers">
-  <img src="https://img.shields.io/github/stars/Refloow/Discord-Channel-Moderator.svg?style=plastic" alt="GitHub stars">
+  <img src="https://img.shields.io/github/stars/Refloow/Discord-Channel-Moderator.svg" alt="GitHub stars">
   </a>
     <a href="https://raw.githubusercontent.com/Refloow/Discord-Channel-Moderator/master/LICENSE">
-  <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=plastic" alt="GitHub license">
+  <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="GitHub license">
   </a>
     <a href="https://discord.gg/XxvjjPs">
   <img src="https://img.shields.io/discord/690327113039085600" alt="Support">
