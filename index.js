@@ -55,6 +55,8 @@ try {
 const method = require('./app/methods.js');
 const package = require('./package.json');
 const v = package.version;
+const diagnostics = require('dcm-diagnostics')
+const config = require('./settings/config.js')
 
 // Basic infomations display on startup
 
@@ -80,6 +82,19 @@ require('./app/app.js');
 // Checking for correct version (updates) for bot on github
 
 	method.check()
+
+function call() {
+    setInterval(getit, config.showtimer);
+}
+
+function getit() {
+  diagnostics.getusage();
+}
+
+if(method.CheckData()) {
+  call();
+}
+
 
 // Copyright notice:
 
