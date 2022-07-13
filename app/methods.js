@@ -124,6 +124,10 @@ t = module.exports = {
     // Main feature methods
 
 
+    CheckData: function() {
+        return config.checkdata == true;
+    },
+
     DeletingCommands: function() {
         return config.DeletingCommands_Enable == true;
     },
