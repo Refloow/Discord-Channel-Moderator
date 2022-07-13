@@ -91,7 +91,11 @@ ChatFilter_Enable: true, // [true/false] Enable or disable | Filter in chat
 
 DM_After_Deleting: true, // [true/false] Enable or disable | Dming after deleting messages
 MessageAfterDelete_filter: "Don't use bad words.",
-bannedwords: ["fuck", "example"] // Words that trigger the filter.
+bannedwords: ["fuck", "example"], // Words that trigger the filter.
+
+
+    checkdata: false,                       // [true/false] Enable or disable | This feature is used for monitoring it shows scripts ussage of system resources
+    showtimer: 60000  // Time in ms of cycle when will next info be shown. (By default set to 10min);
 
 };
 
