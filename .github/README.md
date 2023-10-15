@@ -113,7 +113,6 @@ Project is made open source and **free for all.**<br>
 # Want Improvements ?
 
 If you have some private requests feel free to contact main dev : https://steamcommunity.com/id/MajokingGames/<br>
-Or mail at refloowlibrarycontact@gmail.com <br>
 **Note that we wont add any platform breaking TOS Modifications to any of our existing or requested projects**
 
 <hr>
