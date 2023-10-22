@@ -73,7 +73,6 @@ This means that if you plan to sell our project to make quick buck please keep t
 Project is made open source and **free for all.**<br>
 **We cant prohibit reselling of our project but if you do please follow the licensing terms.**<br> 
 
-<br>
 <hr>
 
 # Important Links
