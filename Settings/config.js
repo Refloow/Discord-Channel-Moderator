@@ -3,7 +3,7 @@ module.exports = {
    // Copyright notice:
 
 /*
-  Original work: Copyright (c) 2020-2021 Refloow All rights reserved.
+  Original work: Copyright (c) 2020-2023 Refloow All rights reserved.
   Code origin (Free GitHub publish): https://github.com/Refloow/Discord-Channel-Moderator*/
 /*
 
@@ -103,6 +103,6 @@ bannedwords: ["fuck", "example"], // Words that trigger the filter.
 
 // Copyright notice:
 
-/* Original work: Copyright (c) 2020-2021 Refloow All rights reserved.
+/* Original work: Copyright (c) 2020-2023 Refloow All rights reserved.
   Code origin: https://github.com/Refloow/Discord-Channel-Moderator */
 
