@@ -2,7 +2,7 @@
 // Copyright notice:
 
 /*---------------------------------------------------------------------------------------------
-* Original work: Copyright (c) 2020-2021 Refloow All rights reserved.
+* Original work: Copyright (c) 2020-2023 Refloow All rights reserved.
 
 * Code origin: https://github.com/Refloow/Discord-Channel-Moderator
 * Developer name: Veljko Vuckovic
@@ -12,7 +12,6 @@
 * Contact information:
   Discord Support Server: https://discord.gg/D8WCtDD
   Main developer steam: https://steamcommunity.com/id/MajokingGames/
-  Mail: refloowlibrarycontact@gmail.com
 
  --------------------------------------------------------------------------------------------*/
  /*
@@ -336,6 +335,6 @@ refloow.login(config.Discord_Login).catch(() => Console.error("| [Discord] |: In
 
 // Copyright notice:
 
-/* Original work: Copyright (c) 2020-2021 Refloow All rights reserved.
+/* Original work: Copyright (c) 2020-2023 Refloow All rights reserved.
   Code origin (Free GitHub publish): https://github.com/Refloow/Discord-Channel-Moderator*/
 
