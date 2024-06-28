@@ -84,7 +84,7 @@ Project is made open source and **free for all.**<br>
 ### `Troubleshooting Guide`
 > **[List of common user made errors and how to solve them](https://refloow.com/Open-Source-Projects/troubleshooting)**<br>
 ### `Contributions`
-> **[Want to contribute? Read how](https://github.com/OSL-Works/Discord-Channel-Moderator/blob/master/.github/CONTRIBUTING.md)**<br>
+> **[Want to contribute? Read how](https://github.com/Refloow/Discord-Channel-Moderator/blob/master/.github/CONTRIBUTING.md)**<br>
 ### `Features`
 > **[See list of features](https://github.com/OSL-Works/Discord-Channel-Moderator/blob/master/.github/FEATURES.md)**<br>
 > **[See version changelogs](https://github.com/OSL-Works/Discord-Channel-Moderator/blob/master/.github/changelog.md)**<br>
