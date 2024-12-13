@@ -2,6 +2,12 @@
 > **[Important Guides](https://github.com/Refloow/Discord-Channel-Moderator#important-links)**<br>
 > **[Join our DISCORD](discord.gg/4enDY8yhuS)**<br>
 
+> [!IMPORTANT]
+> [Make sure to read this readme to the end]([https://store.steampowered.com/account/notificationsettings](https://github.com/Refloow/Discord-Channel-Moderator#important-links))
+
+> [!CAUTION]
+> [Join our discord server <3](discord.gg/4enDY8yhuS)
+
 <p align="center">
 <img width="600" height="100" src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg">
 </p>
