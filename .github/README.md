@@ -8,9 +8,7 @@
 > [!CAUTION]
 > [Join our discord server <3](discord.gg/4enDY8yhuS)
 
-<p align="center">
-<img width="600" height="100" src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg">
-</p>
+<img width="614" height="409" alt="discord-channel-moderatorbannerpng" src="https://github.com/user-attachments/assets/ff6b2239-1076-4914-b21a-68c907dfca74" />
 
 <h1 align= "center"><b>
   About
