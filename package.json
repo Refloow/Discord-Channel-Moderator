@@ -43,49 +43,4 @@
     "type": "individual",
     "url": "https://refloow.com"
   }
-{
-  "name": "@refloow/discord-channel-moderator",
-  "version": "1.1.1",
-  "description": "Refloow™ Discord Channel Moderator Bot that helps you filter commands, (allow) links or filter words in channels where they were not allowed. Script is Node.js based using discord.js built by and maintained by Refloow Organization",
-  "main": "index.js",
-  "private": true,
-  "bugs": {
-    "url": "https://github.com/Refloow/Discord-Channel-Moderator/issues"
-  },
-  "homepage": "https://github.com/Refloow/Discord-Channel-Moderator",
-  "dependencies": {
-    "colors": "^1.1.2",
-    "console-master": "^1.0.3",
-    "console-stamp": "^0.2.7",
-    "dcm-diagnostics": "^1.0.2",
-    "discord.js": "^11.4.2",
-    "moment": "^2.22.2",
-    "opusscript": "0.0.7",
-    "prompt": "^1.0.0",
-    "request": "^2.85.0",
-    "winston": "^3.1.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "title Refloow / Discord-Channel-Moderator & node index.js pause"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://https://github.com/Refloow/Discord-Channel-Moderator.git"
-  },
-"author": {
-    "name": "Refloow",
-    "email": "legal@refloow.com",
-    "url": "https://refloow.com"
-  },
-  "contributors": [
-    {
-      "name": "Veljko Vuckovic",
-      "url": "https://github.com/Refloow"
-    }
-  ],
-  "funding": {
-    "type": "individual",
-    "url": "https://refloow.com"
-  }
 }
