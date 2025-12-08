@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "To ensure brand protection, please cite the Refloow™ software suite as follows:"
+title: "Refloow™ Discord Channel Moderator"
+abstract: "The official open-source Discord moderation bot maintained by the Refloow™ Software Organization."
+authors:
+  - name: "Refloow"
+    website: "https://refloow.com"
+    email: "legal@refloow.com"
+  - family-names: "Vuckovic"
+    given-names: "Veljko"
+    affiliation: "Refloow Founder"
+version: 1.1.1
+date-released: 2020-04-26
+license: "MIT"
+repository-code: "https://github.com/Refloow/Discord-Channel-Moderator"
+url: "https://refloow.com"
+keywords:
+  - "Refloow"
+  - "Refloow™"
+  - "Official"
+  - "Discord Bot"
+  - "Moderation"
