@@ -14,7 +14,7 @@
     "console-stamp": "^0.2.7",
     "dcm-diagnostics": "^1.0.2",
     "discord.js": "^11.4.2",
-    "moment": "^2.22.2",
+    "moment": "^2.29.4",
     "opusscript": "0.0.7",
     "prompt": "^1.0.0",
     "request": "^2.85.0",
