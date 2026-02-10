@@ -4,9 +4,10 @@
 
 > [!IMPORTANT]
 > [Make sure to read this readme to the end]([https://store.steampowered.com/account/notificationsettings](https://github.com/Refloow/Discord-Channel-Moderator#important-links))
-
-> [!CAUTION]
-> [Join our discord server <3](discord.gg/4enDY8yhuS)
+> 
+> [Join our discord server ](discord.gg/4enDY8yhuS)
+> 
+> [Join our Telegram channel](https://t.me/+LC9l6d-Jhco2NTU0)
 
 <img width="614" height="409" alt="discord-channel-moderatorbannerpng" src="https://github.com/user-attachments/assets/ff6b2239-1076-4914-b21a-68c907dfca74" />
 
